@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                text-align: center;
+                background: black;
+                color: rgba(224, 165, 241, 0.541);
+                font-family: Georgia;
+                margin: 5%;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            button {
+                display: block;
+                margin: 0 auto;
+                color: rgba(184, 11, 236, 0.541);
+                font-family: Georgia;
+                padding: 1%;
+                border-radius: 5%;
+                width: 110px;
+            }
+
+            #photo {
+                display: none;
+                margin: 0 auto;
+            }
+
+            #explanation-text {
+                display: none;
+                margin: 0 auto;
+                text-align: left;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.js"></script>
+    </head>
+    
+    <body>
+        <h1>NASA PHOTO</h1>
+        
+        <image id="photo" src="#" alt="Space Photo" />
+
+        <a href="#photo">
+            <button id="click-photo">PHOTO</button>
+        </a>
+    
+        <a href="#explanation-text">
+            <button id="click-explanation">EXPLANATION</button>
+        </a>
+
+        <div id="explanation-text"></div>
+    </body>
+</html>
